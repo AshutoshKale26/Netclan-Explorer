@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle for the thumb -->
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <solid android:color="@color/Blue" />
+            <size android:width="48dp" android:height="48dp" />
+        </shape>
+    </item>
+    <!-- Progress circle for the thumb -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="oval">
+                <solid android:color="@color/Blue" />
+                <size android:width="48dp" android:height="48dp" />
+            </shape>
+        </clip>
+    </item>
+    <!-- White circle for the thumb -->
+    <item android:id="@android:id/tabs">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <size android:width="48dp" android:height="48dp" />
+        </shape>
+    </item>
+    <!-- TextView to display the current value -->
+    <item android:id="@+id/textView">
+        <bitmap
+            android:src="@drawable/plus"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </item>
+</layer-list>
+

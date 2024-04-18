@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_array">
+        <item>Busy | Do Not Distrub I Will Catch Up Later</item>
+        <item>Available | Hey Let Us Connect </item>
+        <item>Away | Stay Discrete And Watch </item>
+        <item>SOS | Emergency ! Need Assisyance! HELP </item>
+        <!-- Add more options as needed -->
+    </string-array>
+</resources>

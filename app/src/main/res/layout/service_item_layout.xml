@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginStart="55dp"
+        android:background="@drawable/item_border"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp">
+
+            <TextView
+                android:id="@+id/userNameTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/Blue"
+                android:text="User Name and Surname"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/Blue"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="Invite +" />
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/locationTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/lightBlue"
+            android:text="Location | Distance KM "/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp">
+            <ProgressBar
+                android:id="@+id/simpleProgressBar"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:progress="28"
+                android:paddingVertical="5dp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+            <TextView
+                android:id="@+id/profileScoreTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/lightBlue"
+                android:layout_marginStart="10dp"
+                android:text="Profile Score 28% "/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:src="@drawable/call"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/add_prsn"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/professionTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Blue"
+            android:text=" Proffession | Years of Experince"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightBlue"
+            android:layout_marginTop="10dp"
+            android:text="hi Community ! I am avaible at your sevice ! "/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/p1"
+        app:shapeAppearanceOverlay="@style/roundedview"
+        />
+
+
+
+
+</androidx.cardview.widget.CardView>
